@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetra — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f6f8fa;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3 { color: #111; }
+        hr { border: 0; height: 1px; background: #e1e4e8; margin: 24px 0; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vetra — Privacy Policy / Gizlilik Politikası</h1>
+        <p><strong>Effective Date / Yürürlük Tarihi:</strong> November 7, 2026<br>
+        <strong>Application / Uygulama:</strong> Vetra — Window Manager & Dock Previews for macOS (<code>com.vetra.windowmanager</code>)</p>
+        
+        <p><a href="#english">🇺🇸 English</a> | <a href="#turkish">🇹🇷 Türkçe</a></p>
+        <hr>
+
+        <h2 id="english">🇺🇸 Privacy Policy (English)</h2>
+        <h3>1. Overview & Zero-Data-Collection Commitment</h3>
+        <p><strong>Vetra</strong> ("the Application") is a native macOS window management and live Dock preview utility developed with a strict <strong>privacy-first, local-only architecture</strong>.</p>
+        <p><strong>We do not collect, store, transmit, rent, or sell any personal data, usage analytics, telemetry, window contents, or screen captures.</strong></p>
+        <ul>
+            <li><strong>No Accounts Required:</strong> Vetra operates without user registration, sign-in, or cloud accounts.</li>
+            <li><strong>No Network Transmission:</strong> Vetra makes zero outbound network requests to external servers, analytics providers, or third-party SDKs.</li>
+            <li><strong>No Tracking or Telemetry:</strong> Vetra contains no crash reporters, advertising identifiers, or behavioral tracking libraries.</li>
+        </ul>
+
+        <h3>2. macOS System Permissions & How They Are Used</h3>
+        <p>To function as a window manager and live Dock preview enhancer on macOS, Vetra requests your explicit consent for two standard macOS system permissions:</p>
+        <h4>a) Accessibility Permission (<code>AXUIElement</code> API)</h4>
+        <ul>
+            <li><strong>Why it is requested:</strong> Required by macOS to read window positions, dimensions, and focus states, and to resize or arrange application windows into tiled layouts and detect cursor hover position over the macOS Dock.</li>
+            <li><strong>How data is handled:</strong> All window geometry calculations happen <strong>100% in volatile memory (RAM)</strong> on your Mac in real time. Window titles and coordinates are never logged to disk or transmitted anywhere.</li>
+        </ul>
+        <h4>b) Screen Recording Permission (Optional)</h4>
+        <ul>
+            <li><strong>Why it is requested:</strong> Optionally used to render live miniature window thumbnails when you hover over an application icon in the macOS Dock.</li>
+            <li><strong>How data is handled:</strong> Window snapshots are captured on-demand in memory solely to display the live preview card and are <strong>immediately discarded</strong>. No images or video recordings are ever saved to disk or shared outside your device.</li>
+        </ul>
+
+        <h3>3. Local Configuration Storage</h3>
+        <p>Your user preferences are stored strictly locally on your Mac using standard macOS <code>UserDefaults</code> (<code>com.vetra.windowmanager</code>). You can reset or delete these settings at any time from within the Application.</p>
+
+        <h3>4. Third-Party Services</h3>
+        <p>Vetra does <strong>not</strong> integrate with any third-party analytics, advertising, cloud storage, or AI services.</p>
+
+        <h3>5. Children's Privacy</h3>
+        <p>Vetra does not collect personal information from anyone, including children under the age of 13.</p>
+
+        <h3>6. Changes to This Privacy Policy</h3>
+        <p>If we update this Privacy Policy in future versions of Vetra, the revised version will be posted on this page with an updated effective date.</p>
+
+        <h3>7. Contact Us</h3>
+        <p>If you have any questions about this Privacy Policy, please contact us via our GitHub repository Issues page or support email.</p>
+
+        <hr>
+
+        <h2 id="turkish">🇹🇷 Gizlilik Politikası (Türkçe)</h2>
+        <h3>1. Genel Bakış ve Sıfır Veri Toplama Taahhüdü</h3>
+        <p><strong>Vetra</strong> ("Uygulama"), tamamen <strong>gizlilik odaklı ve %100 yerel (cihaz içi)</strong> mimariyle geliştirilmiş yerel bir macOS pencere yönetimi ve canlı Dock önizleme uygulamasıdır.</p>
+        <p><strong>Hiçbir kişisel veriyi, kullanım istatistiğini, telemetri verisini, pencere içeriğini veya ekran görüntüsünü toplamaz, kaydetmez, dış sunuculara iletmez veya üçüncü taraflarla paylaşmayız.</strong></p>
+        <ul>
+            <li><strong>Hesap Gerektirmez:</strong> Vetra herhangi bir üyelik, giriş veya bulut hesabı olmadan çalışır.</li>
+            <li><strong>İnternet Bağlantısı veya Veri Aktarımı Yoktur:</strong> Vetra hiçbir harici sunucuya, analiz servisine veya üçüncü taraf yazılıma veri göndermez.</li>
+            <li><strong>İzleme ve Telemetri Yoktur:</strong> Uygulama içinde reklam kimliği, kullanıcı takip kodu veya üçüncü taraf analiz kütüphanesi bulunmaz.</li>
+        </ul>
+
+        <h3>2. macOS Sistem İzinleri ve Kullanım Amaçları</h3>
+        <p>Vetra, macOS üzerinde pencereleri otomatik hizalamak ve canlı Dock önizlemeleri sunmak için yalnızca sizin açık onayınızla iki standart macOS sistem izni kullanır:</p>
+        <h4>a) Erişilebilirlik İzni (Accessibility — <code>AXUIElement</code> API)</h4>
+        <ul>
+            <li><strong>Neden İstenir:</strong> Açık pencerelerin konumunu, boyutunu ve odak durumunu okumak; pencereleri seçtiğiniz düzene göre otomatik boyutlandırmak ve farenin Dock üzerindeki konumunu algılamak için macOS tarafından zorunlu tutulur.</li>
+            <li><strong>Veriler Nasıl İşlenir:</strong> Tüm pencere geometrisi hesaplamaları <strong>%100 cihazınızın geçici belleğinde (RAM)</strong> gerçek zamanlı olarak yapılır. Pencere başlıkları veya konumları diske kaydedilmez ve hiçbir yere gönderilmez.</li>
+        </ul>
+        <h4>b) Ekran Kaydı İzni (İsteğe Bağlı)</h4>
+        <ul>
+            <li><strong>Neden İstenir:</strong> Fareyi macOS Dock'taki bir uygulama simgesinin üzerine getirdiğinizde açık pencerelerin canlı küçük önizlemelerini göstermek için isteğe bağlı olarak kullanılır.</li>
+            <li><strong>Veriler Nasıl İşlenir:</strong> Pencere önizleme görselleri yalnızca anlık olarak bellekte oluşturulur, birkaç saniyeliğine önbellekte tutulur ve <strong>anında silinir</strong>. Hiçbir görüntü veya ekran kaydı diske yazılmaz.</li>
+        </ul>
+
+        <h3>3. Yerel Ayarların Saklanması</h3>
+        <p>Tercih ettiğiniz pencere düzeni ve diğer ayarlar yalnızca kendi Mac bilgisayarınızda standart macOS <code>UserDefaults</code> (<code>com.vetra.windowmanager</code>) üzerinde yerel olarak saklanır.</p>
+
+        <h3>4. Üçüncü Taraf Hizmetler</h3>
+        <p>Vetra hiçbir üçüncü taraf analiz, reklam, bulut depolama veya veri işleme servisi içermez.</p>
+
+        <h3>5. Çocukların Gizliliği</h3>
+        <p>Vetra, 13 yaş altı çocuklar dahil olmak üzere hiçbir kullanıcıdan herhangi bir kişisel veri toplamaz.</p>
+
+        <h3>6. Gizlilik Politikasındaki Değişiklikler</h3>
+        <p>Gelecekteki sürümlerde bu Gizlilik Politikasında bir güncelleme yapılması durumunda, güncel metin bu sayfada yayınlanacaktır.</p>
+
+        <h3>7. İletişim</h3>
+        <p>Bu Gizlilik Politikası hakkında sorularınız için GitHub depomuzdaki "Issues" bölümünden bizimle iletişime geçebilirsiniz.</p>
+    </div>
+</body>
+</html>
